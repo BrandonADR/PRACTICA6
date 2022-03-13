@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.principal{
+    display: flex;
+    border-bottom: solid black 5px;
+    width: 1200px;
+}
+
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.caja{
+    display: flex;
+}
+
+.imagen{
+    /* float: right; */
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    /* float: left; */
+}
+
+.titulo{
+    align-items: center;
+    margin-left: 10px;
+}
+
+.derecha{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.navegacion{
+    display: inline;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.navegacion a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+a:hover{
+    color: orange;
+}
+
+.seccion{
+    width: 960px;
+    height: 200px;
+    margin: 25px auto;
+    background-image: url(https://i.blogs.es/6f44dd/google-2015-1/450_1000.jpg);
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.inferior{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.inferior p{
+    color: white;
+}
+
+.boton {
+    display: inline-block;
+    background-color: red;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.seccion2{
+    display: flex;
+}
+
+.cajas{
+    justify-content: space-around;
+    border: solid black 3px;
+    width: 250px;
+}
+
+.medidas{
+    width: 200px;
+    height: 100px;
+}
